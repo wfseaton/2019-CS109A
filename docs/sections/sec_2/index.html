@@ -84,20 +84,32 @@
   </div><!-- .container -->
 </nav>
     <main id="content" class="container">
-    <div>
-      <div class="float-left">
-        <p>Key Word(s):
-          <a href="../../pages/materials.html#knn k-Nearest Neighbors (kNN)">knn k-Nearest Neighbors (kNN)</a>,          <a href="../../pages/materials.html#linear regression">linear regression</a>,          <a href="../../pages/materials.html#sklearn">sklearn</a>,          <a href="../../pages/materials.html#statsmodels">statsmodels</a>,          <a href="../../pages/materials.html#confidence intervals">confidence intervals</a>,          <a href="../../pages/materials.html#training and testing data splitting">training and testing data splitting</a>        </p>
-      </div>
-      <div class="float-right">
-        <a href="https://github.com/Harvard-IACS/2019-CS109A/blob/master/content/sections/section2/notebook/cs109a_section_2.ipynb">
-          Download Notebook <i class="fas fa-download"></i>
-        </a>
-      </div>
-    </div>
-    <br />
-    <hr />
-  <style type="text/css">/*!
+ <div>
+  <div class="float-left">
+    <p>
+      Key Word(s):       <a href="../../pages/materials.html#knn k-Nearest Neighbors (kNN)"
+        >knn k-Nearest Neighbors (kNN)</a
+      >,       <a href="../../pages/materials.html#linear regression"
+        >linear regression</a
+      >,       <a href="../../pages/materials.html#sklearn"
+        >sklearn</a
+      >,       <a href="../../pages/materials.html#statsmodels"
+        >statsmodels</a
+      >,       <a href="../../pages/materials.html#confidence intervals"
+        >confidence intervals</a
+      >,       <a href="../../pages/materials.html#training and testing data splitting"
+        >training and testing data splitting</a
+      >     </p>
+  </div>
+  <div class="float-right">
+    <a href="../../sections/section2/notebook/cs109a_section_2.ipynb">
+      Download Notebook <i class="fas fa-download"></i>
+    </a>
+  </div>
+</div>
+<br />
+<hr />
+ <style type="text/css">/*!
 *
 * IPython notebook
 *
@@ -1822,15 +1834,6 @@ print("Score for Model (Testing) :", r2_test)</code></pre>
 <div class="inner_cell">
 <div class="input_area">
 <div class="highlight hl-ipython3"><pre><span></span><span class="c1"># %load '../solutions/sol7.py'</span>
-<span class="c1"># Confidence Interval using Stats Model Summary</span>
-<span class="n">thresh</span> <span class="o">=</span> <span class="mf">0.05</span> 
-<span class="n">intervals</span> <span class="o">=</span> <span class="n">results</span><span class="o">.</span><span class="n">conf_int</span><span class="p">(</span><span class="n">alpha</span><span class="o">=</span><span class="n">thresh</span><span class="p">)</span>
-
-<span class="c1"># Renaming column names</span>
-<span class="n">first_col</span> <span class="o">=</span> <span class="nb">str</span><span class="p">(</span><span class="n">thresh</span><span class="o">/</span><span class="mi">2</span><span class="o">*</span><span class="mi">100</span><span class="p">)</span><span class="o">+</span><span class="s2">"%"</span>
-<span class="n">second_col</span> <span class="o">=</span> <span class="nb">str</span><span class="p">((</span><span class="mi">1</span><span class="o">-</span><span class="n">thresh</span><span class="o">/</span><span class="mi">2</span><span class="p">)</span><span class="o">*</span><span class="mi">100</span><span class="p">)</span><span class="o">+</span><span class="s2">"%"</span>
-<span class="n">intervals</span> <span class="o">=</span> <span class="n">intervals</span><span class="o">.</span><span class="n">rename</span><span class="p">(</span><span class="n">columns</span><span class="o">=</span><span class="p">{</span><span class="mi">0</span><span class="p">:</span><span class="n">first_col</span><span class="p">,</span><span class="mi">1</span><span class="p">:</span><span class="n">second_col</span><span class="p">})</span>
-<span class="n">display</span><span class="p">(</span><span class="n">intervals</span><span class="p">)</span>
 </pre></div>
 </div>
 </div>
@@ -2152,8 +2155,7 @@ print("Score for Model (Testing) :", r2_test)</code></pre>
     (document.body || document.getElementsByTagName('head')[0]).appendChild(mathjaxscript);
 }
 </script>
-
-    </main>
+     </main>
 
 <footer class="footer">
   <div class="container">
