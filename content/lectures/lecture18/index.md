@@ -1,9 +1,9 @@
 Title: Lecture 18: Neural Networks 1 – Perceptron and MLP
 Category: lectures
 Date: 2019-11-06
-Author: 
+Author: Pavlos Protopapas
 Slug: lecture18
-Tages: ADD TAGS HERE
+Tages: Artificial Neural Networks (ANN), Perceptron, Multilayer Perceptron (MLP)
 
 
 ## Lecture
@@ -14,6 +14,6 @@ Tages: ADD TAGS HERE
 
 ## Lab
 
-- [Lab 11: Neural Network Basics - Introduction to tf.keras]({filename}../../notes/lab11_MLP_solutions_part1.ipynb)
+- [Lab 11: Neural Network Basics - Introduction to tf.keras]({filename}../../labs/lab11/notes/lab11_MLP_solutions_part1.ipynb)
 
 

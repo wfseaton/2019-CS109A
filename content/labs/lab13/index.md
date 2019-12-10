@@ -1,9 +1,9 @@
-Title: Lab 13:
+Title: Lab 13: Making websites!
 Category: labs
 Date: 2019-12-05
-Author: 
+Author: Chris Tanner
 Slug: lab13
-Tages: ADD TAGS HERE
+Tages: websites, web pages, http, html, google sites, wix, www
 
-
-## Slides
+## Jupyter Notebooks
+- [Lab 13: Making Websites]({filename}notes/cs109a_Lab13_Websites.ipynb)
